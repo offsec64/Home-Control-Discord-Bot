@@ -39,4 +39,39 @@ Now, install the Discord package by typing `pip install discord`. After that fin
 Start the Code
 --
 
+Now you can open up PyCharm again and you'll see an example project. You can select and delete that. 
+
+The first thing we need to do is import the modules. We'll do the two we just installed:
+
+```
+import discord
+import requests
+```
+
+The bot also needs the commands module to use commands. Import that, too:
+
+```
+from discord.ext import commands
+```
+
+We need to tell the bot and Discord what the prefix is. Most bots use prefixes to indicate a command (example `!command` where '!' is the prefix). You can do that by adding
+
+```
+bot = commands.Bot(command_prefix='!')
+```
+
+Create the First Command
+--
+
+To indicate a command, type this:
+
+```
+@bot.command()
+```
+
+On a new line, define the name of the command:
+
+```
+async def <COMMAND_NAME>(ctx):
+```
 
