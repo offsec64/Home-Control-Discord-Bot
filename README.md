@@ -23,7 +23,7 @@ Open up PyCharm and let everything load. Then, click on new project. At the top,
 
 Then, click on 'New Environment Using' and choose conda from the drop down.
 
-![Image of the environment selection with Conda chosen](https://raw.githubusercontent.com/offsec64/Home-Control-Discord-Bot/main/images/1Environment.PNG)
+![Image of the environment selection with Conda chosen](https://raw.githubusercontent.com/offsec64/Home-Control-Discord-Bot/main/images/2Environment.PNG)
 
 Press 'Create' and let everything load.
 
